@@ -62,7 +62,6 @@ class main:
             main.showusercategorys()
         product = products[product - 1]
         global cart
-        print("adicionado: "+str(product))
         cart.append(product)
         another = input("Continuar Comprando: ")
         if another.lower() == "sim" or another.lower() == "sin" or another.lower() == "si" or another.lower() == "s" or another.lower() == "yes":
